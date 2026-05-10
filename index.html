@@ -4,836 +4,92 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>12-Week Cut to 185 lb</title>
+  <meta name="description" content="Aggressive 12-week cut from 220 lb to 185 lb with high protein, calisthenics, light dumbbells, daily conditioning, and weekly tracking." />
+  <meta property="og:title" content="12-Week Cut to 185 lb" />
+  <meta property="og:description" content="Aggressive fat-loss plan built around high protein, calisthenics, light dumbbells, daily conditioning, and weekly tracking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jrdn-r.github.io/LifePlan/" />
+  <meta property="og:image" content="https://jrdn-r.github.io/LifePlan/assets/preview.svg" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="12-Week Cut to 185 lb" />
+  <meta name="twitter:description" content="Aggressive fat-loss plan built around high protein, calisthenics, light dumbbells, daily conditioning, and weekly tracking." />
+  <meta name="twitter:image" content="https://jrdn-r.github.io/LifePlan/assets/preview.svg" />
   <style>
-    :root {
-      --bg: #f6f7f9;
-      --card: #ffffff;
-      --text: #16181d;
-      --muted: #5d6675;
-      --line: #dfe3ea;
-      --accent: #1f6feb;
-      --accent-soft: #eaf2ff;
-      --green: #0f7b4f;
-      --green-soft: #e9f8f0;
-      --orange: #a15c00;
-      --orange-soft: #fff3df;
-      --red: #b42318;
-      --red-soft: #fff0ee;
-      --shadow: 0 8px 28px rgba(16, 24, 40, 0.08);
-      --radius: 18px;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.55;
-    }
-
-    .page {
-      width: 100%;
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 18px;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #111827 0%, #1f2937 52%, #30445f 100%);
-      color: white;
-      border-radius: 24px;
-      padding: 26px 22px;
-      box-shadow: var(--shadow);
-      margin-bottom: 18px;
-    }
-
-    .hero h1 {
-      margin: 0 0 8px;
-      font-size: clamp(1.7rem, 6vw, 2.8rem);
-      line-height: 1.08;
-      letter-spacing: -0.04em;
-    }
-
-    .hero p {
-      margin: 0;
-      color: rgba(255, 255, 255, 0.82);
-      font-size: 1rem;
-    }
-
-    .quick-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      margin: 16px 0 0;
-    }
-
-    .quick-card {
-      background: rgba(255, 255, 255, 0.11);
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      border-radius: 16px;
-      padding: 14px;
-    }
-
-    .quick-card strong {
-      display: block;
-      font-size: 1.15rem;
-      color: #fff;
-      line-height: 1.2;
-    }
-
-    .quick-card span {
-      display: block;
-      margin-top: 4px;
-      font-size: 0.86rem;
-      color: rgba(255, 255, 255, 0.74);
-    }
-
-    .nav {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      background: rgba(246, 247, 249, 0.92);
-      backdrop-filter: blur(12px);
-      padding: 8px 0 14px;
-      margin-bottom: 12px;
-      overflow-x: auto;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .nav a {
-      display: inline-block;
-      text-decoration: none;
-      color: var(--text);
-      background: var(--card);
-      border: 1px solid var(--line);
-      padding: 9px 12px;
-      border-radius: 999px;
-      font-weight: 650;
-      font-size: 0.9rem;
-      margin-right: 7px;
-      box-shadow: 0 2px 10px rgba(16, 24, 40, 0.04);
-    }
-
-    section {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 18px;
-      margin-bottom: 14px;
-      box-shadow: var(--shadow);
-    }
-
-    h2 {
-      margin: 0 0 12px;
-      font-size: 1.35rem;
-      letter-spacing: -0.025em;
-    }
-
-    h3 {
-      margin: 18px 0 8px;
-      font-size: 1.08rem;
-      letter-spacing: -0.015em;
-    }
-
-    p {
-      margin: 8px 0;
-    }
-
-    .muted {
-      color: var(--muted);
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-size: 0.83rem;
-      font-weight: 700;
-      margin: 3px 4px 3px 0;
-      background: var(--accent-soft);
-      color: #174a98;
-      border: 1px solid #cfe1ff;
-    }
-
-    .goal-box {
-      background: var(--accent-soft);
-      border: 1px solid #cfe1ff;
-      border-radius: 16px;
-      padding: 14px;
-      margin: 12px 0;
-    }
-
-    .goal-box strong {
-      display: block;
-      font-size: 1.2rem;
-    }
-
-    .warning-box {
-      background: var(--orange-soft);
-      border: 1px solid #ffd99b;
-      border-radius: 16px;
-      padding: 14px;
-      margin: 12px 0;
-      color: #6d3f00;
-    }
-
-    .success-box {
-      background: var(--green-soft);
-      border: 1px solid #bdeed4;
-      border-radius: 16px;
-      padding: 14px;
-      margin: 12px 0;
-      color: #075f3b;
-    }
-
-    .rule-box {
-      background: #fafafa;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      margin: 10px 0;
-    }
-
-    .rule-box strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    ul, ol {
-      padding-left: 21px;
-      margin: 10px 0;
-    }
-
-    li {
-      margin: 6px 0;
-    }
-
-    .checklist {
-      list-style: none;
-      padding: 0;
-    }
-
-    .checklist li {
-      background: #fafafa;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 10px 12px;
-      margin: 8px 0;
-    }
-
-    .checklist li::before {
-      content: "✓";
-      display: inline-block;
-      color: var(--green);
-      font-weight: 900;
-      margin-right: 8px;
-    }
-
-    .table-wrap {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      margin: 12px 0;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 520px;
-      background: white;
-    }
-
-    th, td {
-      text-align: left;
-      border-bottom: 1px solid var(--line);
-      padding: 12px 11px;
-      vertical-align: top;
-    }
-
-    th {
-      background: #f9fafb;
-      font-size: 0.86rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
-    details {
-      border: 1px solid var(--line);
-      border-radius: 15px;
-      background: #fff;
-      margin: 10px 0;
-      overflow: hidden;
-    }
-
-    summary {
-      cursor: pointer;
-      padding: 14px 15px;
-      font-weight: 800;
-      background: #fbfcfd;
-      list-style: none;
-    }
-
-    summary::-webkit-details-marker {
-      display: none;
-    }
-
-    summary::after {
-      content: "+";
-      float: right;
-      color: var(--accent);
-      font-weight: 900;
-      font-size: 1.1rem;
-    }
-
-    details[open] summary::after {
-      content: "–";
-    }
-
-    .detail-body {
-      padding: 0 15px 15px;
-      border-top: 1px solid var(--line);
-    }
-
-    .workout-list {
-      list-style: none;
-      padding: 0;
-    }
-
-    .workout-list li {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      border-bottom: 1px solid var(--line);
-      padding: 10px 0;
-      margin: 0;
-    }
-
-    .workout-list li:last-child {
-      border-bottom: none;
-    }
-
-    .exercise {
-      font-weight: 700;
-    }
-
-    .dose {
-      color: var(--muted);
-      text-align: right;
-      min-width: 112px;
-    }
-
-    .back-to-top {
-      position: fixed;
-      left: 50%;
-      bottom: calc(18px + env(safe-area-inset-bottom));
-      transform: translateX(-50%);
-      z-index: 100;
-      width: 52px;
-      height: 52px;
-      border-radius: 999px;
-      background: #111827;
-      color: #ffffff;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      box-shadow: 0 10px 30px rgba(16, 24, 40, 0.28);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 1.7rem;
-      font-weight: 900;
-      line-height: 1;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .back-to-top:active {
-      transform: translateX(-50%) scale(0.96);
-    }
-
-    .back-to-top span {
-      position: relative;
-      top: -1px;
-    }
-
-    .footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.88rem;
-      padding: 20px 8px 40px;
-    }
-
-    @media (max-width: 640px) {
-      .page {
-        padding: 12px;
-      }
-
-      .hero {
-        padding: 22px 18px;
-        border-radius: 20px;
-      }
-
-      .quick-grid {
-        grid-template-columns: 1fr;
-      }
-
-      section {
-        padding: 16px;
-        border-radius: 16px;
-      }
-
-      .workout-list li {
-        display: block;
-      }
-
-      .dose {
-        text-align: left;
-        margin-top: 2px;
-      }
-
-      table {
-        font-size: 0.92rem;
-      }
-    }
-
-    @media print {
-      body {
-        background: white;
-      }
-
-      .nav {
-        display: none;
-      }
-
-      section, .hero {
-        box-shadow: none;
-        break-inside: avoid;
-      }
-
-      details {
-        break-inside: avoid;
-      }
-
-      details .detail-body {
-        display: block;
-      }
-    }
+    :root{--bg:#f6f7f9;--card:#fff;--text:#16181d;--muted:#5d6675;--line:#dfe3ea;--accent:#1f6feb;--accent-soft:#eaf2ff;--green:#0f7b4f;--green-soft:#e9f8f0;--orange:#a15c00;--orange-soft:#fff3df;--shadow:0 8px 28px rgba(16,24,40,.08);--radius:18px}
+    html{scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}.page{width:100%;max-width:920px;margin:0 auto;padding:18px}.hero{background:linear-gradient(135deg,#111827 0%,#1f2937 52%,#30445f 100%);color:#fff;border-radius:24px;padding:26px 22px;box-shadow:var(--shadow);margin-bottom:18px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:center}.hero h1{margin:0 0 8px;font-size:clamp(1.8rem,6vw,3rem);line-height:1.05;letter-spacing:-.04em}.hero p{margin:0;color:rgba(255,255,255,.82);font-size:1rem}.hero-image{width:100%;border-radius:20px;display:block;box-shadow:0 18px 45px rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.16)}.quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0 0}.quick-card{background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:14px}.quick-card strong{display:block;font-size:1.15rem;color:#fff;line-height:1.2}.quick-card span{display:block;margin-top:4px;font-size:.86rem;color:rgba(255,255,255,.74)}.nav{position:sticky;top:0;z-index:10;background:rgba(246,247,249,.92);backdrop-filter:blur(12px);padding:8px 0 14px;margin-bottom:12px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}.nav a{display:inline-block;text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--line);padding:9px 12px;border-radius:999px;font-weight:650;font-size:.9rem;margin-right:7px;box-shadow:0 2px 10px rgba(16,24,40,.04)}section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:14px;box-shadow:var(--shadow)}h2{margin:0 0 12px;font-size:1.35rem;letter-spacing:-.025em}h3{margin:18px 0 8px;font-size:1.08rem;letter-spacing:-.015em}p{margin:8px 0}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:6px 10px;font-size:.83rem;font-weight:700;margin:3px 4px 3px 0;background:var(--accent-soft);color:#174a98;border:1px solid #cfe1ff}.goal-box,.rule-box,.success-box,.warning-box{border-radius:16px;padding:14px;margin:12px 0}.goal-box{background:var(--accent-soft);border:1px solid #cfe1ff}.rule-box{background:#fafafa;border:1px solid var(--line)}.success-box{background:var(--green-soft);border:1px solid #bdeed4;color:#075f3b}.warning-box{background:var(--orange-soft);border:1px solid #ffd99b;color:#6d3f00}.goal-box strong,.rule-box strong,.success-box strong,.warning-box strong{display:block}.checklist{list-style:none;padding:0;margin:10px 0}.checklist li{background:#fafafa;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0}.checklist li:before{content:"✓";display:inline-block;color:var(--green);font-weight:900;margin-right:8px}ul,ol{padding-left:21px;margin:10px 0}li{margin:6px 0}.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:14px;border:1px solid var(--line);margin:12px 0}table{width:100%;border-collapse:collapse;min-width:520px;background:#fff}th,td{text-align:left;border-bottom:1px solid var(--line);padding:12px 11px;vertical-align:top}th{background:#f9fafb;font-size:.86rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}tr:last-child td{border-bottom:none}details{border:1px solid var(--line);border-radius:15px;background:#fff;margin:10px 0;overflow:hidden}summary{cursor:pointer;padding:14px 15px;font-weight:800;background:#fbfcfd;list-style:none}summary::-webkit-details-marker{display:none}summary:after{content:"+";float:right;color:var(--accent);font-weight:900;font-size:1.1rem}details[open] summary:after{content:"–"}.detail-body{padding:0 15px 15px;border-top:1px solid var(--line)}.workout-list{list-style:none;padding:0}.workout-list li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:10px 0;margin:0}.workout-list li:last-child{border-bottom:none}.exercise{font-weight:700}.dose{color:var(--muted);text-align:right;min-width:112px}.back-to-top{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:100;width:52px;height:52px;border-radius:999px;background:#111827;color:#fff;border:1px solid rgba(255,255,255,.18);box-shadow:0 10px 30px rgba(16,24,40,.28);display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:1.7rem;font-weight:900;line-height:1;-webkit-tap-highlight-color:transparent}.back-to-top:active{transform:translateX(-50%) scale(.96)}.footer{text-align:center;color:var(--muted);font-size:.88rem;padding:20px 8px 40px}@media(max-width:700px){.page{padding:12px}.hero{padding:18px;border-radius:20px}.hero-grid{grid-template-columns:1fr}.hero-image{max-height:280px;object-fit:cover}.quick-grid{grid-template-columns:1fr}section{padding:16px;border-radius:16px}.workout-list li{display:block}.dose{text-align:left;margin-top:2px}table{font-size:.92rem}}
   </style>
 </head>
 <body>
   <main class="page" id="top">
     <header class="hero">
-      <h1>12-Week Cut to 185 lb</h1>
-      <p>Built around aggressive weight loss, high protein, calisthenics, light dumbbells, daily conditioning, and keeping as much muscle as possible while cutting from 220 to 185.</p>
-
-      <div class="quick-grid">
-        <div class="quick-card">
-          <strong>220 → 185 lbs</strong>
-          <span>12-week target, 35 lbs total</span>
+      <div class="hero-grid">
+        <div>
+          <h1>12-Week Cut to 185 lb</h1>
+          <p>Built around aggressive weight loss, high protein, calisthenics, light dumbbells, daily conditioning, and keeping as much muscle as possible while cutting from 220 to 185.</p>
+          <div class="quick-grid">
+            <div class="quick-card"><strong>220 → 185 lbs</strong><span>12-week target, 35 lbs total</span></div>
+            <div class="quick-card"><strong>~2.9 lbs/week</strong><span>Aggressive pace, track weekly averages</span></div>
+            <div class="quick-card"><strong>1,900-2,200 cal</strong><span>Daily starting calorie target</span></div>
+            <div class="quick-card"><strong>180-220g protein</strong><span>Daily protein target</span></div>
+          </div>
         </div>
-        <div class="quick-card">
-          <strong>~2.9 lbs/week</strong>
-          <span>Aggressive pace; adjust if recovery suffers</span>
-        </div>
-        <div class="quick-card">
-          <strong>1,900-2,200 cal</strong>
-          <span>Daily starting calorie target</span>
-        </div>
-        <div class="quick-card">
-          <strong>180-220g protein</strong>
-          <span>Daily protein target</span>
-        </div>
+        <img class="hero-image" src="assets/preview.svg" alt="12 week plan preview image" />
       </div>
     </header>
 
     <nav class="nav" aria-label="Plan sections">
-      <a href="#targets">Targets</a>
-      <a href="#food">Food</a>
-      <a href="#training">Training</a>
-      <a href="#weekly">Weekly Plan</a>
-      <a href="#dumbbells">Dumbbells</a>
-      <a href="#progress">Progression</a>
-      <a href="#results">Results</a>
-      <a href="#checklist">Checklist</a>
+      <a href="#targets">Targets</a><a href="#food">Food</a><a href="#training">Training</a><a href="#weekly">Weekly Plan</a><a href="#dumbbells">Dumbbells</a><a href="#progress">Progression</a><a href="#results">Results</a><a href="#checklist">Checklist</a>
     </nav>
 
     <section id="targets">
       <h2>1. Main Target</h2>
-
-      <div class="goal-box">
-        <strong>Primary goal: 220 lbs to 185 lbs in 12 weeks</strong>
-        <span>This is a 35 lb cut, averaging about 2.9 lbs per week. It is aggressive, so consistency and weekly-average tracking matter more than perfect daily scale weight.</span>
-      </div>
-
-      <div class="goal-box">
-        <strong>Milestone path: 210 by Week 4, 197 by Week 8, 185 by Week 12</strong>
-        <span>Use these as checkpoints. Being slightly ahead or behind is normal, but the weekly trend should keep moving down.</span>
-      </div>
-
+      <div class="goal-box"><strong>Primary goal: 220 lbs to 185 lbs in 12 weeks</strong><span>This is a 35 lb cut, averaging about 2.9 lbs per week. It is aggressive, so consistency and weekly-average tracking matter more than perfect daily scale weight.</span></div>
+      <div class="goal-box"><strong>Milestone path: 210 by Week 4, 197 by Week 8, 185 by Week 12</strong><span>Use these as checkpoints. Being slightly ahead or behind is normal, but the weekly trend should keep moving down.</span></div>
       <p>Estimated starting point: around <strong>23-26% body fat</strong>. The 12-week target is <strong>35 lbs down</strong> while keeping protein high, training hard, walking/cardio consistent, and adjusting based on weekly averages.</p>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Body Weight</th>
-              <th>Likely Look</th>
-              <th>Estimated Body Fat Range</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>220 lbs</td>
-              <td>Starting point: thick, somewhat muscular, carrying extra fat</td>
-              <td>~23-26%</td>
-            </tr>
-            <tr>
-              <td>210 lbs</td>
-              <td>Noticeably leaner, waist and face starting to change</td>
-              <td>~20-22%</td>
-            </tr>
-            <tr>
-              <td>197 lbs</td>
-              <td>Fit-looking if muscle is maintained</td>
-              <td>~15-18%</td>
-            </tr>
-            <tr>
-              <td>185 lbs</td>
-              <td>Very lean compared with the start, clearly back in shape</td>
-              <td>~11-15%</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <div class="table-wrap"><table><thead><tr><th>Body Weight</th><th>Likely Look</th><th>Estimated Body Fat Range</th></tr></thead><tbody><tr><td>220 lbs</td><td>Starting point: thick, somewhat muscular, carrying extra fat</td><td>~23-26%</td></tr><tr><td>210 lbs</td><td>Noticeably leaner, waist and face starting to change</td><td>~20-22%</td></tr><tr><td>197 lbs</td><td>Fit-looking if muscle is maintained</td><td>~15-18%</td></tr><tr><td>185 lbs</td><td>Very lean compared with the start, clearly back in shape</td><td>~11-15%</td></tr></tbody></table></div>
     </section>
 
     <section id="food">
       <h2>2. Daily Nutrition Targets</h2>
-
-      <span class="pill">Calories: 1,900-2,200/day</span>
-      <span class="pill">Protein: 180-220g/day</span>
-      <span class="pill">Water: 100-130 oz/day</span>
-      <span class="pill">Daily weigh-in</span>
-
+      <span class="pill">Calories: 1,900-2,200/day</span><span class="pill">Protein: 180-220g/day</span><span class="pill">Water: 100-130 oz/day</span><span class="pill">Daily weigh-in</span>
       <p>The fat-loss rule is simple: <strong>you need a calorie deficit</strong>. This calorie range is aggressive, so use weekly averages and recovery to decide whether to tighten or ease up.</p>
-
       <h3>Food rules</h3>
-      <ul class="checklist">
-        <li>Build every meal around protein first.</li>
-        <li>Use clean carbs like rice, potatoes, oatmeal, fruit, beans, and vegetables.</li>
-        <li>Keep fats controlled. They are not bad, but they are calorie-dense.</li>
-        <li>Measure creamer. Do not free-pour it.</li>
-        <li>Water only besides coffee.</li>
-        <li>No soda, juice, random snacking, sweets, late-night calorie creep, or casual bites throughout the day.</li>
-      </ul>
-
+      <ul class="checklist"><li>Build every meal around protein first.</li><li>Use clean carbs like rice, potatoes, oatmeal, fruit, beans, and vegetables.</li><li>Keep fats controlled. They are not bad, but they are calorie-dense.</li><li>Measure creamer. Do not free-pour it.</li><li>Water only besides coffee.</li><li>No soda, juice, random snacking, sweets, late-night calorie creep, or casual bites throughout the day.</li></ul>
       <h3>Simple daily meal structure</h3>
-
-      <div class="rule-box">
-        <strong>Meal 1</strong>
-        Greek yogurt + protein powder + fruit, or eggs/egg whites + oatmeal.
-      </div>
-
-      <div class="rule-box">
-        <strong>Meal 2</strong>
-        Chicken, turkey, lean beef, or fish + rice/potatoes + vegetables.
-      </div>
-
-      <div class="rule-box">
-        <strong>Meal 3</strong>
-        Protein shake or Greek yogurt.
-      </div>
-
-      <div class="rule-box">
-        <strong>Meal 4</strong>
-        Lean protein + vegetables + small carb serving if calories allow.
-      </div>
+      <div class="rule-box"><strong>Meal 1</strong>Greek yogurt + protein powder + fruit, or eggs/egg whites + oatmeal.</div>
+      <div class="rule-box"><strong>Meal 2</strong>Chicken, turkey, lean beef, or fish + rice/potatoes + vegetables.</div>
+      <div class="rule-box"><strong>Meal 3</strong>Protein shake or Greek yogurt.</div>
+      <div class="rule-box"><strong>Meal 4</strong>Lean protein + vegetables + small carb serving if calories allow.</div>
     </section>
 
     <section id="training">
       <h2>3. Training Overview</h2>
-
       <p>This plan avoids heavy weightlifting and uses calisthenics, conditioning, walking/jogging, HIIT, and light dumbbells.</p>
-
-      <div class="success-box">
-        <strong>Weekly structure:</strong>
-        6 training days, 1 rest day. Strength/calisthenics several times per week, cardio almost daily, and HIIT built in.
-      </div>
-
+      <div class="success-box"><strong>Weekly structure:</strong>6 training days, 1 rest day. Strength/calisthenics several times per week, cardio almost daily, and HIIT built in.</div>
       <h3>What matters most</h3>
-      <ul>
-        <li><strong>Consistency:</strong> doing the work every week.</li>
-        <li><strong>Progression:</strong> more reps, more rounds, harder variations, shorter rest, or more distance.</li>
-        <li><strong>Protein:</strong> keeps the cut from turning into muscle loss.</li>
-        <li><strong>Calorie control:</strong> this is what makes body fat actually come off.</li>
-      </ul>
+      <ul><li><strong>Consistency:</strong> doing the work every week.</li><li><strong>Progression:</strong> more reps, more rounds, harder variations, shorter rest, or more distance.</li><li><strong>Protein:</strong> keeps the cut from turning into muscle loss.</li><li><strong>Calorie control:</strong> this is what makes body fat actually come off.</li></ul>
     </section>
 
     <section id="weekly">
       <h2>4. Weekly Workout Plan</h2>
-
-      <details open>
-        <summary>Monday, Push + Core + 1 Mile</summary>
-        <div class="detail-body">
-          <ul class="workout-list">
-            <li><span class="exercise">Push-ups</span><span class="dose">5 sets near failure</span></li>
-            <li><span class="exercise">Pike push-ups</span><span class="dose">4 sets, 8-15 reps</span></li>
-            <li><span class="exercise">Chair dips</span><span class="dose">3 sets, 10-20 reps</span></li>
-            <li><span class="exercise">Plank</span><span class="dose">3 sets, 45-60 sec</span></li>
-            <li><span class="exercise">Leg raises</span><span class="dose">3 sets, 12-20 reps</span></li>
-            <li><span class="exercise">Crunches</span><span class="dose">3 sets, 20-30 reps</span></li>
-            <li><span class="exercise">Walk/jog</span><span class="dose">1 mile</span></li>
-          </ul>
-        </div>
-      </details>
-
-      <details>
-        <summary>Tuesday, Legs + HIIT</summary>
-        <div class="detail-body">
-          <ul class="workout-list">
-            <li><span class="exercise">Bodyweight squats</span><span class="dose">5 sets, 20-30 reps</span></li>
-            <li><span class="exercise">Reverse lunges</span><span class="dose">4 sets, 10-15 each leg</span></li>
-            <li><span class="exercise">Glute bridges</span><span class="dose">4 sets, 20-30 reps</span></li>
-            <li><span class="exercise">Calf raises</span><span class="dose">4 sets, 25-40 reps</span></li>
-          </ul>
-
-          <h3>HIIT circuit</h3>
-          <p>Repeat <strong>5-8 rounds</strong>:</p>
-          <ul class="workout-list">
-            <li><span class="exercise">Mountain climbers</span><span class="dose">30 sec</span></li>
-            <li><span class="exercise">Running in place</span><span class="dose">30 sec</span></li>
-            <li><span class="exercise">Burpees or squat thrusts</span><span class="dose">30 sec</span></li>
-            <li><span class="exercise">Rest</span><span class="dose">60-90 sec</span></li>
-          </ul>
-        </div>
-      </details>
-
-      <details>
-        <summary>Wednesday, Pull + Core + Walking</summary>
-        <div class="detail-body">
-          <ul class="workout-list">
-            <li><span class="exercise">Dumbbell rows with 20s</span><span class="dose">5 sets, 15-25 each arm</span></li>
-            <li><span class="exercise">Rear delt raises</span><span class="dose">4 sets, 15-25 reps</span></li>
-            <li><span class="exercise">Curls</span><span class="dose">4 sets, 12-20 reps</span></li>
-            <li><span class="exercise">Farmer carries</span><span class="dose">4 rounds</span></li>
-            <li><span class="exercise">Side plank</span><span class="dose">3 sets each side</span></li>
-            <li><span class="exercise">Dead bugs</span><span class="dose">3 sets each side</span></li>
-            <li><span class="exercise">Easy walk</span><span class="dose">30-45 min</span></li>
-          </ul>
-        </div>
-      </details>
-
-      <details>
-        <summary>Thursday, Cardio Day</summary>
-        <div class="detail-body">
-          <p>Walk/jog intervals for <strong>1.5-2 miles</strong>.</p>
-
-          <div class="rule-box">
-            <strong>Starting version</strong>
-            2 min fast walk, 1 min jog, repeat until done.
-          </div>
-
-          <div class="rule-box">
-            <strong>Progression version</strong>
-            1 min walk, 2 min jog, repeat until done.
-          </div>
-
-          <div class="rule-box">
-            <strong>Eventually</strong>
-            Straight jogging.
-          </div>
-        </div>
-      </details>
-
-      <details>
-        <summary>Friday, Full-Body Circuit</summary>
-        <div class="detail-body">
-          <p>Do <strong>5 rounds</strong>:</p>
-          <ul class="workout-list">
-            <li><span class="exercise">Push-ups</span><span class="dose">10-20 reps</span></li>
-            <li><span class="exercise">Dumbbell rows</span><span class="dose">15-20 each arm</span></li>
-            <li><span class="exercise">Bodyweight squats</span><span class="dose">25-30 reps</span></li>
-            <li><span class="exercise">Reverse lunges</span><span class="dose">10 each leg</span></li>
-            <li><span class="exercise">Mountain climbers</span><span class="dose">30 sec</span></li>
-            <li><span class="exercise">Plank</span><span class="dose">45 sec</span></li>
-            <li><span class="exercise">Rest between rounds</span><span class="dose">1-2 min</span></li>
-          </ul>
-        </div>
-      </details>
-
-      <details>
-        <summary>Saturday, Conditioning Day</summary>
-        <div class="detail-body">
-          <ul class="workout-list">
-            <li><span class="exercise">Walk/jog</span><span class="dose">2 miles</span></li>
-            <li><span class="exercise">Burpees or squat thrusts</span><span class="dose">5 sets of 10</span></li>
-            <li><span class="exercise">Crunches</span><span class="dose">3 sets of 25</span></li>
-            <li><span class="exercise">Leg raises</span><span class="dose">3 sets, 12-20 reps</span></li>
-            <li><span class="exercise">Plank</span><span class="dose">2-3 sets</span></li>
-          </ul>
-        </div>
-      </details>
-
-      <details>
-        <summary>Sunday, Rest</summary>
-        <div class="detail-body">
-          <p>Rest or easy walk. Do not turn the rest day into another full workout.</p>
-        </div>
-      </details>
+      <details open><summary>Monday, Push + Core + 1 Mile</summary><div class="detail-body"><ul class="workout-list"><li><span class="exercise">Push-ups</span><span class="dose">5 sets near failure</span></li><li><span class="exercise">Pike push-ups</span><span class="dose">4 sets, 8-15 reps</span></li><li><span class="exercise">Chair dips</span><span class="dose">3 sets, 10-20 reps</span></li><li><span class="exercise">Plank</span><span class="dose">3 sets, 45-60 sec</span></li><li><span class="exercise">Leg raises</span><span class="dose">3 sets, 12-20 reps</span></li><li><span class="exercise">Crunches</span><span class="dose">3 sets, 20-30 reps</span></li><li><span class="exercise">Walk/jog</span><span class="dose">1 mile</span></li></ul></div></details>
+      <details><summary>Tuesday, Legs + HIIT</summary><div class="detail-body"><ul class="workout-list"><li><span class="exercise">Bodyweight squats</span><span class="dose">5 sets, 20-30 reps</span></li><li><span class="exercise">Reverse lunges</span><span class="dose">4 sets, 10-15 each leg</span></li><li><span class="exercise">Glute bridges</span><span class="dose">4 sets, 20-30 reps</span></li><li><span class="exercise">Calf raises</span><span class="dose">4 sets, 25-40 reps</span></li></ul><h3>HIIT circuit</h3><p>Repeat <strong>5-8 rounds</strong>:</p><ul class="workout-list"><li><span class="exercise">Mountain climbers</span><span class="dose">30 sec</span></li><li><span class="exercise">Running in place</span><span class="dose">30 sec</span></li><li><span class="exercise">Burpees or squat thrusts</span><span class="dose">30 sec</span></li><li><span class="exercise">Rest</span><span class="dose">60-90 sec</span></li></ul></div></details>
+      <details><summary>Wednesday, Pull + Core + Walking</summary><div class="detail-body"><ul class="workout-list"><li><span class="exercise">Dumbbell rows with 20s</span><span class="dose">5 sets, 15-25 each arm</span></li><li><span class="exercise">Rear delt raises</span><span class="dose">4 sets, 15-25 reps</span></li><li><span class="exercise">Curls</span><span class="dose">4 sets, 12-20 reps</span></li><li><span class="exercise">Farmer carries</span><span class="dose">4 rounds</span></li><li><span class="exercise">Side plank</span><span class="dose">3 sets each side</span></li><li><span class="exercise">Dead bugs</span><span class="dose">3 sets each side</span></li><li><span class="exercise">Easy walk</span><span class="dose">30-45 min</span></li></ul></div></details>
+      <details><summary>Thursday, Cardio Day</summary><div class="detail-body"><p>Walk/jog intervals for <strong>1.5-2 miles</strong>.</p><div class="rule-box"><strong>Starting version</strong>2 min fast walk, 1 min jog, repeat until done.</div><div class="rule-box"><strong>Progression version</strong>1 min walk, 2 min jog, repeat until done.</div><div class="rule-box"><strong>Eventually</strong>Straight jogging.</div></div></details>
+      <details><summary>Friday, Full-Body Circuit</summary><div class="detail-body"><p>Do <strong>5 rounds</strong>:</p><ul class="workout-list"><li><span class="exercise">Push-ups</span><span class="dose">10-20 reps</span></li><li><span class="exercise">Dumbbell rows</span><span class="dose">15-20 each arm</span></li><li><span class="exercise">Bodyweight squats</span><span class="dose">25-30 reps</span></li><li><span class="exercise">Reverse lunges</span><span class="dose">10 each leg</span></li><li><span class="exercise">Mountain climbers</span><span class="dose">30 sec</span></li><li><span class="exercise">Plank</span><span class="dose">45 sec</span></li><li><span class="exercise">Rest between rounds</span><span class="dose">1-2 min</span></li></ul></div></details>
+      <details><summary>Saturday, Conditioning Day</summary><div class="detail-body"><ul class="workout-list"><li><span class="exercise">Walk/jog</span><span class="dose">2 miles</span></li><li><span class="exercise">Burpees or squat thrusts</span><span class="dose">5 sets of 10</span></li><li><span class="exercise">Crunches</span><span class="dose">3 sets of 25</span></li><li><span class="exercise">Leg raises</span><span class="dose">3 sets, 12-20 reps</span></li><li><span class="exercise">Plank</span><span class="dose">2-3 sets</span></li></ul></div></details>
+      <details><summary>Sunday, Rest</summary><div class="detail-body"><p>Rest or easy walk. Do not turn the rest day into another full workout.</p></div></details>
     </section>
 
-    <section id="dumbbells">
-      <h2>5. Using 20 lb Dumbbells</h2>
+    <section id="dumbbells"><h2>5. Using 20 lb Dumbbells</h2><p>Use them for controlled tension work. Light dumbbells can still work if the sets are hard and controlled.</p><div class="goal-box"><strong>Tempo</strong>Explode up, 3 seconds down, 1-second squeeze/pause.</div><h3>Best exercises</h3><ul class="checklist"><li>Dumbbell rows</li><li>Goblet squats</li><li>Romanian deadlifts</li><li>Floor press</li><li>Shoulder press</li><li>Curls</li><li>Farmer carries</li></ul></section>
 
-      <p>Use them for controlled tension work. Light dumbbells can still work if the sets are hard and controlled.</p>
+    <section id="progress"><h2>6. Weekly Progression</h2><div class="table-wrap"><table><thead><tr><th>Week</th><th>Focus</th><th>What to Increase</th></tr></thead><tbody><tr><td>Week 1</td><td>Learn the plan</td><td>Do not max out every set yet</td></tr><tr><td>Week 2</td><td>Add reps</td><td>Try to beat Week 1 numbers</td></tr><tr><td>Week 3</td><td>Add volume</td><td>Add one extra round to circuits</td></tr><tr><td>Week 4</td><td>Hit first checkpoint</td><td>Aim for roughly 210 lbs by the end of the week</td></tr><tr><td>Weeks 5-8</td><td>Push conditioning</td><td>Increase cardio distance and HIIT output while staying on calories</td></tr><tr><td>Weeks 9-12</td><td>Final push to 185</td><td>Keep food tight, protein high, steps/cardio consistent, and recovery protected</td></tr></tbody></table></div></section>
 
-      <div class="goal-box">
-        <strong>Tempo</strong>
-        Explode up, 3 seconds down, 1-second squeeze/pause.
-      </div>
+    <section id="results"><h2>7. Expected Results</h2><div class="table-wrap"><table><thead><tr><th>Timeline</th><th>Expected Scale Change</th><th>Target Weight</th><th>Visual Change</th></tr></thead><tbody><tr><td>Week 1</td><td>2-5 lbs down</td><td>215-218 lbs</td><td>Mostly water/glycogen plus some fat</td></tr><tr><td>Week 4</td><td>10-12 lbs down</td><td>208-210 lbs</td><td>Noticeably leaner</td></tr><tr><td>Week 8</td><td>22-25 lbs down</td><td>195-198 lbs</td><td>Obvious difference</td></tr><tr><td>Week 12</td><td>35 lbs down</td><td>185 lbs</td><td>Legit transformation if food is locked in</td></tr></tbody></table></div><div class="warning-box"><strong>Adjustment rule</strong>Weigh every morning and track the weekly average. If the weekly average is not dropping after 14 days and recovery is good, lower calories by 150-200 per day or add 15-20 minutes of easy walking. If you are losing more than 3.5 lbs per week for two straight weeks, or sleep, mood, strength, or energy tanks, add 100-200 calories back in.</div></section>
 
-      <h3>Best exercises</h3>
-      <ul class="checklist">
-        <li>Dumbbell rows</li>
-        <li>Goblet squats</li>
-        <li>Romanian deadlifts</li>
-        <li>Floor press</li>
-        <li>Shoulder press</li>
-        <li>Curls</li>
-        <li>Farmer carries</li>
-      </ul>
-    </section>
-
-    <section id="progress">
-      <h2>6. Weekly Progression</h2>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Week</th>
-              <th>Focus</th>
-              <th>What to Increase</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Week 1</td>
-              <td>Learn the plan</td>
-              <td>Do not max out every set yet</td>
-            </tr>
-            <tr>
-              <td>Week 2</td>
-              <td>Add reps</td>
-              <td>Try to beat Week 1 numbers</td>
-            </tr>
-            <tr>
-              <td>Week 3</td>
-              <td>Add volume</td>
-              <td>Add one extra round to circuits</td>
-            </tr>
-            <tr>
-              <td>Week 4</td>
-              <td>Hit the first checkpoint</td>
-              <td>Aim for roughly 210 lbs by the end of the week</td>
-            </tr>
-            <tr>
-              <td>Weeks 5-8</td>
-              <td>Push conditioning</td>
-              <td>Increase cardio distance and HIIT output while staying on calories</td>
-            </tr>
-            <tr>
-              <td>Weeks 9-12</td>
-              <td>Final push to 185</td>
-              <td>Keep food tight, protein high, steps/cardio consistent, and recovery protected</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="results">
-      <h2>7. Expected Results</h2>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Timeline</th>
-              <th>Expected Scale Change</th>
-              <th>Target Weight</th>
-              <th>Visual Change</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Week 1</td>
-              <td>2-5 lbs down</td>
-              <td>215-218 lbs</td>
-              <td>Mostly water/glycogen plus some fat</td>
-            </tr>
-            <tr>
-              <td>Week 4</td>
-              <td>10-12 lbs down</td>
-              <td>208-210 lbs</td>
-              <td>Noticeably leaner</td>
-            </tr>
-            <tr>
-              <td>Week 8</td>
-              <td>22-25 lbs down</td>
-              <td>195-198 lbs</td>
-              <td>Obvious difference</td>
-            </tr>
-            <tr>
-              <td>Week 12</td>
-              <td>35 lbs down</td>
-              <td>185 lbs</td>
-              <td>Legit transformation if food is locked in</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="warning-box">
-        <strong>Adjustment rule</strong>
-        Weigh every morning and track the weekly average. If the weekly average is not dropping after 14 days and recovery is good, lower calories by 150-200 per day or add 15-20 minutes of easy walking. If you are losing more than 3.5 lbs per week for two straight weeks, or sleep, mood, strength, or energy tanks, add 100-200 calories back in.
-      </div>
-    </section>
-
-    <section id="checklist">
-      <h2>8. Daily Checklist</h2>
-
-      <ul class="checklist">
-        <li>Hit 1,900-2,200 calories.</li>
-        <li>Hit 180-220g protein.</li>
-        <li>Drink 100-130 oz water.</li>
-        <li>Do the scheduled workout or cardio.</li>
-        <li>No liquid calories besides measured coffee creamer.</li>
-        <li>No random snacking.</li>
-        <li>Weigh in every morning.</li>
-        <li>Track the weekly average.</li>
-      </ul>
-
-      <div class="success-box">
-        <strong>The blunt version:</strong>
-        Eat in the deficit, hit protein, train 6 days per week, do cardio almost daily, and make weekly adjustments until the trend is moving from 220 toward 185.
-      </div>
-    </section>
+    <section id="checklist"><h2>8. Daily Checklist</h2><ul class="checklist"><li>Hit 1,900-2,200 calories.</li><li>Hit 180-220g protein.</li><li>Drink 100-130 oz water.</li><li>Do the scheduled workout or cardio.</li><li>No liquid calories besides measured coffee creamer.</li><li>No random snacking.</li><li>Weigh in every morning.</li><li>Track the weekly average.</li></ul><div class="success-box"><strong>The blunt version:</strong>Eat in the deficit, hit protein, train 6 days per week, do cardio almost daily, and make weekly adjustments until the trend is moving from 220 toward 185.</div></section>
 
     <p class="footer">Aggressive fat loss plan, mobile-friendly version.</p>
   </main>
